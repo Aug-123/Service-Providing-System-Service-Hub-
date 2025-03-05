@@ -2,7 +2,7 @@
 require_once 'C:\wamp64\www\mini2\payment\stripe-php-master\stripe-php-master\init.php'; // Make sure this path is correct
 
 // Replace this with your actual Stripe secret key
-$stripe_secret_key = "sk_test_HEQTluW9iTsG9yBawuEdOlmy00jro9OYVf"; 
+$stripe_secret_key = "your_stripe_secret_key"; 
 
 // Set the Stripe API key
 \Stripe\Stripe::setApiKey($stripe_secret_key);
